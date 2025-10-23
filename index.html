@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ 2025 Gubernatorial Race Transcript Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Search -->
+        <header class="header">
+            <h1>NJ 2025 Gubernatorial Race Transcript Explorer</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search transcripts..." autocomplete="off">
+                <button id="clearSearch" class="clear-btn">Clear</button>
+            </div>
+            <div class="candidate-filters">
+                <label class="filter-label">
+                    <input type="checkbox" id="filterSherrill" checked>
+                    <span class="candidate-tag sherrill">Sherrill</span>
+                </label>
+                <label class="filter-label">
+                    <input type="checkbox" id="filterCiattarelli" checked>
+                    <span class="candidate-tag ciattarelli">Ciattarelli</span>
+                </label>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <div class="sidebar-title">
+                        <h2>Search Results</h2>
+                        <span id="resultCount" class="result-count">0 results</span>
+                    </div>
+                    <div class="mini-chart-container">
+                        <div class="chart-label">Mentions over time</div>
+                        <div id="miniChart" class="mini-chart"></div>
+                    </div>
+                </div>
+                <div id="searchResults" class="search-results">
+                    <div class="no-results">
+                        <p>Enter a search term to explore political speech transcripts</p>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Panel -->
+            <main class="main-panel">
+                <div id="transcriptView" class="transcript-view">
+                    <div class="welcome-message">
+                        <h2>Political Speech Explorer</h2>
+                        <p>Search for keywords in political speech transcripts from New Jersey's 2025 gubernatorial race.</p>
+                        <div class="features">
+                            <h3>Features:</h3>
+                            <ul>
+                                <li>Search across all speech transcripts</li>
+                                <li>View highlighted excerpts with context</li>
+                                <li>Read full transcripts with YouTube links</li>
+                                <li>Filter by candidate</li>
+                                <li>Secondary search within selected transcript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

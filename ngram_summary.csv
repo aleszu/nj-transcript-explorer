@@ -1,0 +1,177 @@
+term,ngram_type,total_count,avg_frequency,candidates_mentioned
+jersey,1-gram,685,5.907022309932016,2
+people,1-gram,593,5.681005916507817,2
+governor,1-gram,280,2.280933421384603,2
+time,1-gram,269,2.150213010638585,2
+tax,1-gram,245,1.7578220631173773,2
+day,1-gram,216,2.145548809291093,2
+school,1-gram,204,1.6888635490002306,2
+trump,1-gram,173,1.7638133725413152,2
+jack,1-gram,170,1.942041234141757,2
+taxes,1-gram,169,1.4502131331472201,2
+lot,1-gram,162,1.601688326635482,2
+president,1-gram,159,1.6231302634490767,2
+kids,1-gram,136,1.2527627989997923,2
+property,1-gram,126,1.5077078530100514,2
+country,1-gram,124,1.0785831807045452,2
+business,1-gram,121,1.123948713351493,2
+public,1-gram,119,0.9255511006576181,2
+talk,1-gram,119,0.9975793880869112,2
+yeah,1-gram,119,1.1352440180361603,2
+opponent,1-gram,110,1.0177881997268212,2
+costs,1-gram,108,1.5024406850774896,2
+home,1-gram,100,0.8427376496365888,2
+parents,1-gram,100,1.0599850882949147,2
+running,1-gram,100,1.046055098323668,2
+education,1-gram,99,0.8221088011352095,2
+county,1-gram,98,0.9917903207739812,2
+administration,1-gram,97,0.93277972364885,2
+law,1-gram,95,0.8561687928599789,2
+opportunity,1-gram,94,0.8154103454060955,2
+community,1-gram,92,0.7081456211899735,2
+job,1-gram,91,0.748059352499259,2
+schools,1-gram,91,0.8954776049234413,2
+government,1-gram,90,0.7754894947390559,2
+money,1-gram,89,0.8788627884589459,2
+bill,1-gram,88,0.9916037370663005,2
+housing,1-gram,87,0.8546315370312226,2
+federal,1-gram,86,0.9753591027118844,2
+care,1-gram,85,0.8907871516484983,2
+cost,1-gram,85,0.8820335772591071,2
+question,1-gram,83,0.7586950893505366,2
+children,1-gram,82,1.0089246199482622,2
+plan,1-gram,82,0.7925710756213579,2
+run,1-gram,81,0.8969813529122683,2
+vote,1-gram,81,1.5632044544836872,2
+property taxes,2-gram,80,1.060622926382053,2
+feel,1-gram,79,0.662645548237968,2
+communities,1-gram,78,1.0103131640206344,2
+energy,1-gram,77,0.9999423659788425,2
+york,1-gram,77,0.811821118921272,2
+campaign,1-gram,76,0.8467488236614709,2
+health,1-gram,75,1.0938890174643934,2
+donald trump,2-gram,55,0.8491626635428328,2
+economy,1-gram,47,0.45136720693925797,2
+jobs,1-gram,45,0.7331950567609508,2
+property tax,2-gram,40,0.4991741310396709,2
+law enforcement,2-gram,37,0.4410967371337631,2
+jack chidarelli,2-gram,33,0.893929663815813,2
+mikey cheryl,2-gram,32,0.49366918934093124,2
+affordable housing,2-gram,29,0.6782963055261982,1
+naval academy,2-gram,27,0.506422033320835,2
+president trump,2-gram,26,0.4698908751948335,2
+atlantic city,2-gram,25,0.2975104288996136,2
+child care,2-gram,25,0.3907592063731191,1
+phil murphy,2-gram,25,0.3895554331679842,2
+private school,2-gram,25,0.4291946656617097,1
+sales tax,2-gram,25,0.47994527257737934,2
+social security,2-gram,25,0.32775655722941854,2
+tax credit,2-gram,25,0.4711863681778393,1
+grade level,2-gram,24,0.41041766348819775,2
+jersey shore,2-gram,24,0.3818859859086459,2
+jersey transit,2-gram,24,0.4037234741349436,2
+mental health,2-gram,23,0.6418939527080215,2
+school funding,2-gram,23,0.4179024244389099,2
+federal government,2-gram,22,0.40504809891470284,2
+infrastructure,1-gram,22,0.30275078379942233,2
+beautiful bill,2-gram,21,0.6397179999554273,2
+public school,2-gram,21,0.3101607711699887,2
+supreme court,2-gram,21,0.292935273947196,2
+democratic party,2-gram,19,0.38516825922748926,2
+public education,2-gram,19,0.34419554940583086,2
+health care,2-gram,18,0.7338756114264599,2
+business owner,2-gram,17,0.30181608271752886,1
+funding formula,2-gram,17,0.29232657116501387,2
+gateway tunnel,2-gram,17,0.4555341798636353,2
+healthcare,1-gram,17,0.34321882052083624,2
+highdensity housing,2-gram,17,0.5146903188559817,1
+utility costs,2-gram,17,0.5953259339462852,1
+https www.youtube.com,2-gram,16,0.4176718504765419,2
+https www.youtube.com watch,3-gram,16,0.4176718504765419,2
+reading writing,2-gram,16,0.3217972281953654,1
+school districts,2-gram,16,0.225327946709501,2
+school system,2-gram,16,0.3509482445730757,1
+trump administration,2-gram,16,0.28510734907486773,2
+www.youtube.com watch,2-gram,16,0.4176718504765419,2
+american dream,2-gram,15,0.2868985956279069,2
+democratic governor,2-gram,15,0.2799106181611175,2
+immigration,1-gram,15,0.2659307769321374,2
+income tax,2-gram,15,0.3399158297528715,1
+urban centers,2-gram,15,0.29081372189462007,2
+weeks ago,2-gram,15,0.2754348607634257,2
+lieutenant governor,2-gram,14,0.36963989511030804,2
+local law,2-gram,14,0.2496581939299252,2
+local law enforcement,3-gram,14,0.2496581939299252,2
+mass transit,2-gram,14,0.4505800347105533,1
+natural gas,2-gram,14,0.42875308305561144,2
+rate hikes,2-gram,14,0.36847180131611496,1
+red tape,2-gram,14,0.4945685153191602,1
+school funding formula,3-gram,14,0.3027614142752357,1
+suburban communities,2-gram,14,0.40015939993162447,1
+wind farms,2-gram,14,0.3251771699161867,1
+care tax credit,3-gram,12,0.2284296550479729,1
+child care tax,3-gram,12,0.2284296550479729,1
+critical life skills,3-gram,12,0.3522010702233855,1
+house armed services,3-gram,11,0.20233964808909113,2
+armed services committee,3-gram,10,0.19221726852010204,2
+time business owner,3-gram,10,0.3605480085599476,1
+carbon tax policy,3-gram,9,0.2836062743384908,1
+freezing rate hikes,3-gram,9,0.23483104289863024,1
+greenhouse gas initiative,3-gram,9,0.24680956405225676,1
+magnificent tax credit,3-gram,9,0.23181424096400724,1
+reading writing math,3-gram,9,0.18850079512137247,1
+regional greenhouse gas,3-gram,9,0.24680956405225676,1
+federal tax return,3-gram,8,0.1790286836349408,1
+immigrant trust directive,3-gram,8,0.18299324785429022,2
+major urban centers,3-gram,8,0.24755316617769388,1
+property tax relief,3-gram,8,0.18488987101674187,2
+successful independent contractor,3-gram,8,0.21517316523608773,1
+trading defense stocks,3-gram,8,0.2088060718079633,1
+york times reports,3-gram,8,0.2088060718079633,1
+arrest release repeat,3-gram,7,0.23644755414017077,1
+electricity generation plants,3-gram,7,0.3791214334633785,1
+gateway tunnel project,3-gram,7,0.14167921248508047,2
+health benefits plan,3-gram,7,0.3777192869923504,1
+mikey mikey mikey,3-gram,7,0.6309148264984228,1
+property tax bill,3-gram,7,0.143112255352382,1
+public school curriculum,3-gram,7,0.23453565851873237,1
+public school system,3-gram,7,0.2211210764972423,1
+commercial lending act,3-gram,6,0.2900856389588031,1
+mental health crisis,3-gram,6,0.19673237082446776,2
+middle class,2-gram,6,0.1320988484709076,2
+monthly electric bill,3-gram,6,0.2336336399899725,1
+comprehensive immigration reform,3-gram,5,0.3437320029463353,1
+congestion pricing plan,3-gram,5,0.36579625100409,1
+congresswoman mikey cheryl,3-gram,5,0.45065344749887337,1
+freeze property taxes,3-gram,5,0.19141427461235738,1
+kids online safety,3-gram,5,0.16689279488775116,1
+mass transit systems,3-gram,5,0.17607839697633954,1
+national report card,3-gram,5,0.2214597302657163,1
+online safety act,3-gram,5,0.16689279488775116,1
+restaurant bar owners,3-gram,5,0.24883594140665632,1
+smart growth strategies,3-gram,5,0.35967320934509733,1
+south asian community,3-gram,5,0.45065344749887337,1
+successful restaurant bar,3-gram,5,0.3750941402984469,1
+tax tips social,3-gram,5,0.12440056064156663,1
+affordable housing units,3-gram,4,0.2834266279316942,1
+cap property taxes,3-gram,4,0.09915635798638736,1
+coal burning plants,3-gram,4,0.16437185122850292,1
+egregious money grab,3-gram,4,0.2204896540845899,1
+energy master plan,3-gram,4,0.22361590034982376,1
+firsttime home buyers,3-gram,4,0.16698365406375884,2
+heat heat heat,3-gram,4,0.27917364600781686,1
+laurel housing doctrine,3-gram,4,0.13220128093783823,1
+mount laurel housing,3-gram,4,0.13220128093783823,1
+murphy's failed policies,3-gram,4,0.2438728643252643,1
+navy helicopter pilot,3-gram,4,0.22261386005924727,1
+phil murphy's failed,3-gram,4,0.2438728643252643,1
+public education system,3-gram,4,0.10689170229555361,2
+representative mikey cheryl,3-gram,4,0.2142099406971968,1
+tax tips overtime,3-gram,4,0.16563305193368477,1
+time home buyers,3-gram,4,0.1028183034877298,2
+tips social security,3-gram,4,0.1426029436881041,1
+transit oriented development,3-gram,4,0.1346486694122919,1
+vocational training opportunities,3-gram,4,0.25193992275820604,1
+climate,1-gram,2,0.1212616263713442,1
+tax cuts,2-gram,2,0.1417133139658471,1
+climate change,2-gram,1,0.09013068949977468,1
