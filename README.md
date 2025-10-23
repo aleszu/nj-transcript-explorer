@@ -13,7 +13,7 @@ A web application for exploring political speech transcripts from New Jersey's 2
 
 1. **Install Python Dependencies**
    ```bash
-   pip3 install python-docx flask flask-cors
+   pip3 install python-docx
    ```
 
 2. **Prepare DOCX Files**
