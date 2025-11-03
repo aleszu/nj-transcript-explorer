@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Convert DOCX files to JSON format for direct loading by JavaScript.
-This is simpler than running a Flask server.
 """
 
 import os
