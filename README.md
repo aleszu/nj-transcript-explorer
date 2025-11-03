@@ -16,24 +16,43 @@ A web application for exploring political speech transcripts from New Jersey's 2
    pip3 install python-docx
    ```
 
-2. **Prepare DOCX Files**
-   - Place all DOCX transcript files in `/app/data/` directory
+2A. **Download transcripts as TXT files**
+   - Use the `firefox-extension` to download Youtube files
+   - Ensure the youtube.com link is at the top of the TXT file 
+
+2B. **Generate DOCX files**
+   ```bash
+   python3 convert_to_word.py
+   ```
+   - This parses TXT filename to extract candidate, location, and date.
+   - The expected format is Candidate_Location_Date.txt
+   - This creates the DOCX files placed in the `/app/data` directory
+   - This cleans up any errant unicode or html artifacts from transcript text
+
+3. **Examine DOCX Files**
    - Files should be named with date and candidate info (e.g., "Aug 27 - Sherrill speech.docx")
    - Files should have a youtube.com link inside them
 
-3. **Generate JSON Data**
+4. **Generate JSON Data**
    ```bash
    cd /app
    python3 convert_docx_to_json.py
    ```
    This creates `transcripts.json` with all transcript data, including YouTube URLs.
 
-4. **Start Web Server**
+5. **Generate ngram frequencies**
+   ```bash
+   cd /app
+   python3 generate_ngram_frequencies.py 
+   ```
+   This creates the `n_gram_frequencies_by_week.csv` that feeds the small line charts in the app. 
+
+6. **Start Web Server**
    ```bash
    python3 -m http.server 8001
    ```
 
-5. **Open Application**
+7. **Open Application**
    - Navigate to `http://localhost:8001`
    - Search for keywords in transcripts
    - Click "Watch" buttons to view YouTube videos
@@ -43,15 +62,21 @@ A web application for exploring political speech transcripts from New Jersey's 2
 ```
 /app/
 ├── index.html              # Main HTML file
-├── style.css              # CSS styling
-├── script.js              # JavaScript application logic
+├── style.css               # CSS styling
+├── script.js               # JavaScript application logic
 ├── transcripts.json        # Generated transcript data (JSON)
-├── convert_docx_to_json.py # DOCX to JSON converter script
+├── convert_to_word.py            # TXT to DOCX converter script
+├── convert_docx_to_json.py       # DOCX to JSON converter script
+├── generate_ngram_frequencies.py # Generate ngram analysis script
+├── transcripts/           # Directory containing TXT files
+│   ├── Ciattarelli_FoxNews_10102025.txt
+│   ├── Sherrill_ITVNews_10172025.txt
+│   └── ...
 ├── data/                  # Directory containing DOCX files
 │   ├── Aug 27 - Sherrill speech.docx
 │   ├── Sep 2 - Ciattarelli speech.docx
-│   └── ... (40 total files)
-├── ngram_frequencies_by_week.csv  # N-gram analysis data
+│   └── ... 
+├── ngram_frequencies_by_week.csv  # N-gram analysis data for line chart
 └── ngram_summary.csv      # N-gram summary data
 ```
 
@@ -69,7 +94,8 @@ When adding new DOCX files:
 
 1. Add new DOCX files to `/app/data/` directory
 2. Run `python3 convert_docx_to_json.py` to regenerate JSON
-3. Refresh the web application
+3. Run `python3 generate_ngram_frequencies.py` to regenerate CSV
+4. Refresh the web application
 
 ## Data Processing
 
